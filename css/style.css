@@ -211,14 +211,16 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   display: flex;
   align-items: center;
   overflow: hidden;
-  background: linear-gradient(160deg, var(--c-ai-deep) 0%, var(--c-ai) 60%, #2a4a73 100%);
+  background:
+    linear-gradient(160deg, rgba(21, 38, 61, 0.72) 0%, rgba(31, 58, 95, 0.55) 60%, rgba(42, 74, 115, 0.45) 100%),
+    url('../img/hero.png') center center / cover no-repeat;
   color: var(--c-kinari);
 }
 /* 青海波（せいがいは）パターン */
 .hero__pattern {
   position: absolute;
   inset: 0;
-  opacity: 0.16;
+  opacity: 0.06;
   background-image:
     radial-gradient(circle at 20px 40px, transparent 16px, rgba(244,239,230,0.6) 17px, rgba(244,239,230,0.6) 18px, transparent 19px),
     radial-gradient(circle at 0px 40px, transparent 16px, rgba(244,239,230,0.6) 17px, rgba(244,239,230,0.6) 18px, transparent 19px),
